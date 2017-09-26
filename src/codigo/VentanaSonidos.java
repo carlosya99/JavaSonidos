@@ -89,6 +89,9 @@ public class VentanaSonidos extends javax.swing.JFrame {
         jButton30 = new javax.swing.JButton();
         jButton31 = new javax.swing.JButton();
         jButton32 = new javax.swing.JButton();
+        jButton33 = new javax.swing.JButton();
+        jButton34 = new javax.swing.JButton();
+        jButton35 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAutoRequestFocus(false);
@@ -407,7 +410,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jButton26MousePressed(evt);
             }
         });
-        getContentPane().add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 440, 148, 50));
+        getContentPane().add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 620, 148, 50));
 
         jButton27.setBackground(new java.awt.Color(51, 204, 255));
         jButton27.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -474,6 +477,39 @@ public class VentanaSonidos extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 620, 148, 50));
+
+        jButton33.setBackground(new java.awt.Color(51, 204, 255));
+        jButton33.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton33.setForeground(new java.awt.Color(255, 255, 255));
+        jButton33.setText("<html><center>Vamos que la<br />he liao parda</center></html>");
+        jButton33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton33MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 680, 148, 50));
+
+        jButton34.setBackground(new java.awt.Color(51, 204, 255));
+        jButton34.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton34.setForeground(new java.awt.Color(255, 255, 255));
+        jButton34.setText("<html><center>Trata de<br />arrancarlo</center></html>");
+        jButton34.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton34MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 680, 148, 50));
+
+        jButton35.setBackground(new java.awt.Color(51, 204, 255));
+        jButton35.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton35.setForeground(new java.awt.Color(255, 255, 255));
+        jButton35.setText("<html><center>Trata de<br />arrancarlo!!</center></html>");
+        jButton35.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton35MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 680, 148, 50));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -610,6 +646,18 @@ public class VentanaSonidos extends javax.swing.JFrame {
         reproduce ("/sonidos/noPuedo.wav");
     }//GEN-LAST:event_jButton32MousePressed
 
+    private void jButton33MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton33MousePressed
+        reproduce ("/sonidos/parda.wav");
+    }//GEN-LAST:event_jButton33MousePressed
+
+    private void jButton34MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton34MousePressed
+        reproduce ("/sonidos/trataDeArrancarlo1.wav");
+    }//GEN-LAST:event_jButton34MousePressed
+
+    private void jButton35MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton35MousePressed
+       reproduce ("/sonidos/trataDeArrancarlo2.wav");
+    }//GEN-LAST:event_jButton35MousePressed
+
     /**
      * @param args the command line arguments
      */
@@ -672,6 +720,9 @@ public class VentanaSonidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton32;
+    private javax.swing.JButton jButton33;
+    private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
