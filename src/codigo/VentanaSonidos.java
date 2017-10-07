@@ -96,6 +96,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
         jButton39 = new javax.swing.JButton();
         jButton40 = new javax.swing.JButton();
         jButton41 = new javax.swing.JButton();
+        jButton42 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAutoRequestFocus(false);
@@ -574,6 +575,17 @@ public class VentanaSonidos extends javax.swing.JFrame {
         });
         getContentPane().add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 20, 148, 50));
 
+        jButton42.setBackground(new java.awt.Color(51, 204, 255));
+        jButton42.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton42.setForeground(new java.awt.Color(255, 255, 255));
+        jButton42.setText("Mola - 1");
+        jButton42.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton42MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, 148, 50));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -745,6 +757,10 @@ public class VentanaSonidos extends javax.swing.JFrame {
         reproduce ("/sonidos/bitesTheDust03.wav");
     }//GEN-LAST:event_jButton41MousePressed
 
+    private void jButton42MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton42MousePressed
+        reproduce ("/sonidos/ZZtop.wav");
+    }//GEN-LAST:event_jButton42MousePressed
+
     /**
      * @param args the command line arguments
      */
@@ -817,6 +833,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton40;
     private javax.swing.JButton jButton41;
+    private javax.swing.JButton jButton42;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
