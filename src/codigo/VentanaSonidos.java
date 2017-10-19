@@ -113,6 +113,14 @@ public class VentanaSonidos extends javax.swing.JFrame {
         jButton48 = new javax.swing.JButton();
         jButton39 = new javax.swing.JButton();
         jButton49 = new javax.swing.JButton();
+        jButton50 = new javax.swing.JButton();
+        jButton51 = new javax.swing.JButton();
+        jButton52 = new javax.swing.JButton();
+        jButton53 = new javax.swing.JButton();
+        jButton54 = new javax.swing.JButton();
+        jButton55 = new javax.swing.JButton();
+        jButton56 = new javax.swing.JButton();
+        jButton57 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAutoRequestFocus(false);
@@ -224,7 +232,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 500, 148, 50));
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 560, 148, 50));
 
         jButton10.setBackground(new java.awt.Color(51, 204, 255));
         jButton10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -378,7 +386,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jButton23MousePressed(evt);
             }
         });
-        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 560, 148, 50));
+        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 320, 148, 50));
 
         jButton24.setBackground(new java.awt.Color(51, 204, 255));
         jButton24.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -499,7 +507,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jButton34MousePressed(evt);
             }
         });
-        getContentPane().add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 560, 148, 50));
+        getContentPane().add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 500, 148, 50));
 
         jButton35.setBackground(new java.awt.Color(51, 204, 255));
         jButton35.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -510,7 +518,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jButton35MousePressed(evt);
             }
         });
-        getContentPane().add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 560, 148, 50));
+        getContentPane().add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 500, 148, 50));
 
         jButton36.setBackground(new java.awt.Color(51, 204, 255));
         jButton36.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -666,6 +674,95 @@ public class VentanaSonidos extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton49, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, 148, 50));
+
+        jButton50.setBackground(new java.awt.Color(51, 204, 255));
+        jButton50.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton50.setForeground(new java.awt.Color(255, 255, 255));
+        jButton50.setText("orejudo");
+        jButton50.setActionCommand("Vanidoso");
+        jButton50.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton50MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 620, 148, 50));
+
+        jButton51.setBackground(new java.awt.Color(51, 204, 255));
+        jButton51.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton51.setForeground(new java.awt.Color(255, 255, 255));
+        jButton51.setText("RamonPitis");
+        jButton51.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton51MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton51, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 560, 148, 50));
+
+        jButton52.setBackground(new java.awt.Color(51, 204, 255));
+        jButton52.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton52.setForeground(new java.awt.Color(255, 255, 255));
+        jButton52.setText("droga");
+        jButton52.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton52MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton52, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 560, 148, 50));
+
+        jButton53.setBackground(new java.awt.Color(51, 204, 255));
+        jButton53.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton53.setForeground(new java.awt.Color(255, 255, 255));
+        jButton53.setText("Vanidoso");
+        jButton53.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton53MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton53, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 620, 148, 50));
+
+        jButton54.setBackground(new java.awt.Color(51, 204, 255));
+        jButton54.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton54.setForeground(new java.awt.Color(255, 255, 255));
+        jButton54.setText("emidio");
+        jButton54.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton54MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton54, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 620, 148, 50));
+
+        jButton55.setBackground(new java.awt.Color(51, 204, 255));
+        jButton55.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton55.setForeground(new java.awt.Color(255, 255, 255));
+        jButton55.setText("inestable");
+        jButton55.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton55MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton55, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 620, 148, 50));
+
+        jButton56.setBackground(new java.awt.Color(51, 204, 255));
+        jButton56.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton56.setForeground(new java.awt.Color(255, 255, 255));
+        jButton56.setText("pinPampin");
+        jButton56.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton56MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton56, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 620, 148, 50));
+
+        jButton57.setBackground(new java.awt.Color(51, 204, 255));
+        jButton57.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton57.setForeground(new java.awt.Color(255, 255, 255));
+        jButton57.setText("Puñetazos");
+        jButton57.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton57MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton57, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 620, 148, 50));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -880,6 +977,38 @@ public class VentanaSonidos extends javax.swing.JFrame {
         muestraGif("igual.gif");
     }//GEN-LAST:event_jButton49MousePressed
 
+    private void jButton50MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton50MousePressed
+        reproduce ("/sonidos/orejudo.wav");
+    }//GEN-LAST:event_jButton50MousePressed
+
+    private void jButton51MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton51MousePressed
+        reproduce ("/sonidos/ramon5cosas.wav");
+    }//GEN-LAST:event_jButton51MousePressed
+
+    private void jButton52MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton52MousePressed
+        reproduce ("/sonidos/droga1.wav");
+    }//GEN-LAST:event_jButton52MousePressed
+
+    private void jButton53MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton53MousePressed
+        reproduce ("/sonidos/vanidoso2.wav");
+    }//GEN-LAST:event_jButton53MousePressed
+
+    private void jButton54MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton54MousePressed
+        reproduce ("/sonidos/emidioTuchi.wav");
+    }//GEN-LAST:event_jButton54MousePressed
+
+    private void jButton55MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton55MousePressed
+        reproduce ("/sonidos/inestable.wav");
+    }//GEN-LAST:event_jButton55MousePressed
+
+    private void jButton56MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton56MousePressed
+        reproduce ("/sonidos/pinPamPin.wav");
+    }//GEN-LAST:event_jButton56MousePressed
+
+    private void jButton57MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton57MousePressed
+        reproduce ("/sonidos/punetazos.wav");
+    }//GEN-LAST:event_jButton57MousePressed
+
     /**
      * @param args the command line arguments
      */
@@ -961,6 +1090,14 @@ public class VentanaSonidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton48;
     private javax.swing.JButton jButton49;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton50;
+    private javax.swing.JButton jButton51;
+    private javax.swing.JButton jButton52;
+    private javax.swing.JButton jButton53;
+    private javax.swing.JButton jButton54;
+    private javax.swing.JButton jButton55;
+    private javax.swing.JButton jButton56;
+    private javax.swing.JButton jButton57;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
