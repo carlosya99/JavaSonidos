@@ -66,7 +66,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jMenuItem10.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/pato.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
                 jMenuItem11.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/pez.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
                 jMenuItem12.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/risa2.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
-                jMenuItem13.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/spok.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
+                jMenuItem13.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/GDBcmP4.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
                 jMenuItem14.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/NXQcv6j.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
         } catch (Exception e) {      
         } 
@@ -1129,7 +1129,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem12MousePressed
 
     private void jMenuItem13MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuItem13MousePressed
-        muestraGif("spok.gif");
+        muestraGif("GDBcmP4.gif");
     }//GEN-LAST:event_jMenuItem13MousePressed
 
     private void jMenuItem14MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuItem14MousePressed
