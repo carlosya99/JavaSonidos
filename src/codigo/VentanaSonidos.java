@@ -68,6 +68,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jMenuItem12.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/risa2.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
                 jMenuItem13.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/GDBcmP4.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
                 jMenuItem14.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/NXQcv6j.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
+                jMenuItem15.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/gifs/lolol.gif")).getImage().getScaledInstance(ancho, alto, Image.SCALE_DEFAULT)));
         } catch (Exception e) {      
         } 
 
@@ -153,6 +154,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
         jMenuItem12 = new javax.swing.JMenuItem();
         jMenuItem13 = new javax.swing.JMenuItem();
         jMenuItem14 = new javax.swing.JMenuItem();
+        jMenuItem15 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAutoRequestFocus(false);
@@ -628,7 +630,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jButton46MousePressed(evt);
             }
         });
-        getContentPane().add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 60, 20, 290));
+        getContentPane().add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 10, 20, 30));
 
         jButton39.setBackground(new java.awt.Color(51, 204, 255));
         jButton39.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -853,6 +855,13 @@ public class VentanaSonidos extends javax.swing.JFrame {
             }
         });
         jMenu1.add(jMenuItem14);
+
+        jMenuItem15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jMenuItem15MousePressed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem15);
 
         jMenuBar1.add(jMenu1);
 
@@ -1143,6 +1152,10 @@ public class VentanaSonidos extends javax.swing.JFrame {
          reproduce ("/sonidos/ThugLife.wav");
     }//GEN-LAST:event_jButton58MousePressed
 
+    private void jMenuItem15MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuItem15MousePressed
+       muestraGif("lolol.gif");
+    }//GEN-LAST:event_jMenuItem15MousePressed
+
     /**
      * @param args the command line arguments
      */
@@ -1241,6 +1254,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem12;
     private javax.swing.JMenuItem jMenuItem13;
     private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
