@@ -138,6 +138,10 @@ public class VentanaSonidos extends javax.swing.JFrame {
         jButton56 = new javax.swing.JButton();
         jButton57 = new javax.swing.JButton();
         jButton58 = new javax.swing.JButton();
+        jButton59 = new javax.swing.JButton();
+        jButton60 = new javax.swing.JButton();
+        jButton61 = new javax.swing.JButton();
+        jButton62 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -752,7 +756,51 @@ public class VentanaSonidos extends javax.swing.JFrame {
                 jButton58MousePressed(evt);
             }
         });
-        getContentPane().add(jButton58, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 0, 148, 50));
+        getContentPane().add(jButton58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 148, 50));
+
+        jButton59.setBackground(new java.awt.Color(51, 204, 255));
+        jButton59.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton59.setForeground(new java.awt.Color(255, 255, 255));
+        jButton59.setText("<html><center>Oh My God</center></html>");
+        jButton59.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton59MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton59, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 0, 148, 50));
+
+        jButton60.setBackground(new java.awt.Color(51, 204, 255));
+        jButton60.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton60.setForeground(new java.awt.Color(255, 255, 255));
+        jButton60.setText("Memociono");
+        jButton60.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton60MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton60, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 0, 148, 50));
+
+        jButton61.setBackground(new java.awt.Color(51, 204, 255));
+        jButton61.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton61.setForeground(new java.awt.Color(255, 255, 255));
+        jButton61.setText("Siuuu");
+        jButton61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton61MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 720, 148, 50));
+
+        jButton62.setBackground(new java.awt.Color(51, 204, 255));
+        jButton62.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton62.setForeground(new java.awt.Color(255, 255, 255));
+        jButton62.setText("Tengo miedo");
+        jButton62.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton62MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton62, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 720, 148, 50));
 
         jMenu1.setText("Gifs");
 
@@ -1150,11 +1198,29 @@ public class VentanaSonidos extends javax.swing.JFrame {
 
     private void jButton58MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton58MousePressed
          reproduce ("/sonidos/ThugLife.wav");
+         muestraGif("snoopDog3.gif");
     }//GEN-LAST:event_jButton58MousePressed
 
     private void jMenuItem15MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuItem15MousePressed
        muestraGif("lolol.gif");
     }//GEN-LAST:event_jMenuItem15MousePressed
+
+    private void jButton59MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton59MousePressed
+        reproduce("/sonidos/ohMaGawd.wav");
+    }//GEN-LAST:event_jButton59MousePressed
+
+    private void jButton60MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton60MousePressed
+        reproduce("/sonidos/memociono.wav");
+        muestraGif("memociono.gif");
+    }//GEN-LAST:event_jButton60MousePressed
+
+    private void jButton61MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton61MousePressed
+        reproduce("/sonidos/siuuu.wav");
+    }//GEN-LAST:event_jButton61MousePressed
+
+    private void jButton62MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton62MousePressed
+        reproduce("/sonidos/tengoMiedo.wav");
+    }//GEN-LAST:event_jButton62MousePressed
 
     /**
      * @param args the command line arguments
@@ -1241,7 +1307,11 @@ public class VentanaSonidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton56;
     private javax.swing.JButton jButton57;
     private javax.swing.JButton jButton58;
+    private javax.swing.JButton jButton59;
     private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton60;
+    private javax.swing.JButton jButton61;
+    private javax.swing.JButton jButton62;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
