@@ -142,6 +142,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
         jButton60 = new javax.swing.JButton();
         jButton61 = new javax.swing.JButton();
         jButton62 = new javax.swing.JButton();
+        jButton63 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -802,6 +803,17 @@ public class VentanaSonidos extends javax.swing.JFrame {
         });
         getContentPane().add(jButton62, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 720, 148, 50));
 
+        jButton63.setBackground(new java.awt.Color(51, 204, 255));
+        jButton63.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton63.setForeground(new java.awt.Color(255, 255, 255));
+        jButton63.setText("Que no?");
+        jButton63.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton63MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton63, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 720, 148, 50));
+
         jMenu1.setText("Gifs");
 
         jMenuItem1.setPreferredSize(new java.awt.Dimension(80, 40));
@@ -1222,6 +1234,10 @@ public class VentanaSonidos extends javax.swing.JFrame {
         reproduce("/sonidos/tengoMiedo.wav");
     }//GEN-LAST:event_jButton62MousePressed
 
+    private void jButton63MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton63MousePressed
+        reproduce("/sonidos/queNo.wav");
+    }//GEN-LAST:event_jButton63MousePressed
+
     /**
      * @param args the command line arguments
      */
@@ -1312,6 +1328,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton60;
     private javax.swing.JButton jButton61;
     private javax.swing.JButton jButton62;
+    private javax.swing.JButton jButton63;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
