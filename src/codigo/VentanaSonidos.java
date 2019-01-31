@@ -838,6 +838,17 @@ public class VentanaSonidos extends javax.swing.JFrame {
         });
         getContentPane().add(jButton65, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 720, 148, 50));
 
+        jButton65.setBackground(new java.awt.Color(51, 204, 255));
+        jButton65.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton65.setForeground(new java.awt.Color(255, 255, 255));
+        jButton65.setText("pinPamTrucu");
+        jButton65.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton65MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton65, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 720, 148, 50));
+
         jMenu1.setText("Gifs");
 
         jMenuItem1.setPreferredSize(new java.awt.Dimension(80, 40));
@@ -1270,6 +1281,10 @@ public class VentanaSonidos extends javax.swing.JFrame {
     private void jButton65MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton65MousePressed
         reproduce("/sonidos/wow.wav");
         muestraGif("wow.gif");
+    }//GEN-LAST:event_jButton65MousePressed
+
+    private void jButton65MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton65MousePressed
+        reproduce("/sonidos/ChicotePIM.wav");
     }//GEN-LAST:event_jButton65MousePressed
 
     /**
