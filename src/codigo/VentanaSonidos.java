@@ -145,6 +145,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
         jButton63 = new javax.swing.JButton();
         jButton64 = new javax.swing.JButton();
         jButton66 = new javax.swing.JButton();
+        jButton67 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -838,6 +839,17 @@ public class VentanaSonidos extends javax.swing.JFrame {
         });
         getContentPane().add(jButton66, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 720, 148, 50));
 
+        jButton67.setBackground(new java.awt.Color(51, 204, 255));
+        jButton67.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton67.setForeground(new java.awt.Color(255, 255, 255));
+        jButton67.setText("pumpumpum");
+        jButton67.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jButton67MousePressed(evt);
+            }
+        });
+        getContentPane().add(jButton67, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 720, 148, 50));
+
         jMenu1.setText("Gifs");
 
         jMenuItem1.setPreferredSize(new java.awt.Dimension(80, 40));
@@ -1271,6 +1283,10 @@ public class VentanaSonidos extends javax.swing.JFrame {
         reproduce("/sonidos/ChicotePIM.wav");
     }//GEN-LAST:event_jButton66MousePressed
 
+    private void jButton67MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton67MousePressed
+        reproduce("/sonidos/bombombombom.wav");
+    }//GEN-LAST:event_jButton67MousePressed
+
     private void jButton65MousePressed(java.awt.event.MouseEvent evt) {                                       
         reproduce("/sonidos/wow.wav");
         muestraGif("wow.gif");
@@ -1369,6 +1385,7 @@ public class VentanaSonidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton63;
     private javax.swing.JButton jButton64;
     private javax.swing.JButton jButton66;
+    private javax.swing.JButton jButton67;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
